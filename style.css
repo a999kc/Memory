@@ -1,0 +1,46 @@
+.card {
+    background-color:#ffce52;
+    transition: background-color ease-in-out .3s;
+    font-size: 0px; /*font-size:24px; */
+    color:transparent; /*color: #f4f4f4 */
+    
+}
+
+.card:hover {
+    background-color: #ffd467;
+
+}
+
+.card:active {
+    background-color: #d59901;
+}
+
+.opened-card {
+    background-color:#4655c8;
+    font-size:24px; 
+    color: #f4f4f4;
+}
+
+.opened-card:hover {
+    background-color:#4655c8;
+}
+
+.opened-card:active {
+    background-color:#4655c8;
+}
+
+
+.matched-card {
+    background-color:#16c22d;
+    font-size:24px; 
+    color: #f4f4f4;
+}
+
+.matched-card:hover {
+    background-color:#16c22d;
+}
+
+.matched-card:active {
+    background-color:#16c22d;
+}
+
